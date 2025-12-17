@@ -6,7 +6,7 @@ from utils.qrcode.qrcode_display import QRCodeDisplay
 class UI:
     def __init__(self, conn_manager):
         self.root = tk.Tk()
-        self.root.title("Treasure Hunt Remote Control")
+        self.root.title("EMA Control Hub")
         self.connection_manager = conn_manager
         self.qr_display = QRCodeDisplay(self.root)
 
